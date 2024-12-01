@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<title>おみせっち</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<img class=header src=img/header.jpg>
+
+<img class=mainlogo src=img/logo.jpg><br>
+<img id=imgskill class=mainlogo src=img/skill.jpg><br>
+<iframe id=iframe src=https://code4fukui.github.io/hokuriku-gift-campaign/comments.html#金沢></iframe>
+
+<img class=buttons src=img/buttons.jpg>
+
+<table id=tblbuttons>
+<tr>
+<td><a href=main.html>ホーム</a></td>
+<td><a id=a_friend x-href=https://code4fukui.github.io/hokuriku-gift-campaign/>フレンド</a></td>
+<td><a id=a_skill>スキル</a></td>
+<td><a id=a_mission>ミッション</a></td>
+<td><a id=a_test>テスト</a></td>
+<td><a id=a_mail x-href=https://code4fukui.github.io/hokuriku-gift-campaign/comments.html#金沢>メール</a></td>
+</tr>
+</table>
+
+<script type="module">
+const _alert = (s) => {
+  setTimeout(() => {
+    alert(s);
+  }, 10);
+};
+a_friend.onclick = () => {
+  clear();
+  iframe.src = "https://code4fukui.github.io/hokuriku-gift-campaign/";
+  iframe.style.display = "block";
+  //_alert("お友達や、ライバルのおみせっちがでる予定だよ！");
+};
+const clear = () => {
+  imgskill.style.display = "none";
+  iframe.style.display = "none";
+};
+a_skill.onclick = () => {
+  clear();
+  imgskill.style.display = "block";
+};
+a_mission.onclick = () => {
+  clear();
+  _alert("ミッション一覧がでるよ");
+};
+a_test.onclick = () => {
+  clear();
+  _alert("ミッションクリアにチャレンジ！");
+};
+a_mail.onclick = () => {
+  clear();
+  iframe.src = "https://code4fukui.github.io/hokuriku-gift-campaign/comments.html#金沢";
+  iframe.style.display = "block";
+};
+</script>
+
+</style>

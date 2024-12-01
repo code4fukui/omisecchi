@@ -1,0 +1,92 @@
+body {
+  background-color: #bfbba9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin: 5em 0 0 0;
+  width: 80vw;
+}
+.minilogo {
+  margin: 0 0 1em 0;
+  width: 40vw;
+}
+button.start-button {
+  background-color: #FBE8E8; /* 柔らかいピンク */
+  border: 2px solid #F4C6C6; /* 淡いピンクの境界線 */
+  border-radius: 20px; /* 丸みを帯びた形状 */
+  x-color: #FFFFFF; /* テキストの白色 */
+  color: #6e4535;
+  font-size: 18px; /* 読みやすい文字サイズ */
+  font-weight: bold; /* 強調された文字 */
+  padding: 10px 20px; /* ボタン内の余白 */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 軽い影 */
+  cursor: pointer; /* ホバー時のポインター変更 */
+  transition: all 0.3s ease; /* なめらかなアニメーション */
+}
+
+button.start-button:hover {
+  background-color: #FFCCCC; /* ホバー時の色変化 */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* ホバー時の影の強化 */
+  transform: scale(1.05); /* ホバー時に少し拡大 */
+}
+
+button.start-button:active {
+  background-color: #EABEBE; /* 押下時の色変化 */
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* 押下時の内側の影 */
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+.buttons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+#tblbuttons {
+  position: fixed;
+  aspect-ratio: 1200 / 207;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 3;
+}
+#tblbuttons td {
+  x-background-color: red;
+}
+#tblbuttons a {
+  font-weight: bold;
+  color: white !important;
+}
+a {
+  text-decoration: none;
+}
+.mainlogo {
+  margin: 8em 0 0 0;
+  width: 80vw;
+}
+#imgskill {
+  display: none;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 100vw;
+  left: 0;
+}
+#iframe {
+  display: none;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 3;
+  top: 8em;
+  width: 100vw;
+  height: 70vh;
+  left: 0;
+}
