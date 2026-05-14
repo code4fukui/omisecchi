@@ -28,7 +28,7 @@
 
 本プロジェクトでは、以下の外部ページのコンテンツをiframeを使用して埋め込んでいます。
 
-- `https://code4fukui.github.io/hokuriku-gift-campaign/`
+- `~~https://code4fukui.github.io/hokuriku-gift-campaign/`~~ *(unavailable)*
 - `https://code4fukui.github.io/hokuriku-gift-campaign/comments.html#金沢`
 
 ## ライセンス

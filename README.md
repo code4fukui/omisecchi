@@ -30,5 +30,5 @@ A character-raising game concept developed for the Hokuriku Tourism Hackathon. T
 
 This project embeds content from the following external pages using iframes:
 
--   `https://code4fukui.github.io/hokuriku-gift-campaign/`
+-   `~~https://code4fukui.github.io/hokuriku-gift-campaign/`~~ *(unavailable)*
 -   `https://code4fukui.github.io/hokuriku-gift-campaign/comments.html#金沢`
